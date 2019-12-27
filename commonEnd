@@ -1,0 +1,22 @@
+public boolean commonEnd(int[] a, int[] b) {
+  int l=a.length;
+  int l1=b.length;
+  if(l==0 && l1==0)
+  {
+    return false;
+  }
+  else
+  {
+    int c,d;
+    c=a[0];
+    d=a[l-1];
+    int e,f;
+    e=b[0];
+    f=b[l1-1];
+    if(c==e || d==f)
+    {
+      return true;
+    }
+  }
+  return false;
+}
