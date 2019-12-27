@@ -1,0 +1,11 @@
+public boolean firstLast6(int[] nums) {
+  int l=nums.length;
+  if(nums[0]==6 || nums[l-1]==6)
+  {
+    return true;
+  }
+  else
+  {
+    return false;
+  }
+}
