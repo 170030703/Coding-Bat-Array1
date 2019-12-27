@@ -1,0 +1,19 @@
+public boolean sameFirstLast(int[] nums) {
+  int l=nums.length;
+  if(l==0)
+  {
+    return false;
+  }
+  else
+  {
+  int f=nums[0];
+  int l1=nums[l-1];
+  
+    if(f==l1)
+    {
+      return true;
+    }
+  }
+   return false;
+  
+}
