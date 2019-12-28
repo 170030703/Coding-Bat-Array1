@@ -1,0 +1,6 @@
+public int[] middleWay(int[] a, int[] b) {
+  int l=a.length;
+  int len=b.length;
+  int s[]={a[l/2],b[len/2]};
+  return s;
+}
