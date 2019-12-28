@@ -1,0 +1,5 @@
+public int[] reverse3(int[] nums) {
+  int l=nums.length;
+  int s[]={nums[l-1],nums[l-2],nums[l-3]};
+  return s;
+}
