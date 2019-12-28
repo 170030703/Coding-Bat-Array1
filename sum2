@@ -1,0 +1,19 @@
+public int sum2(int[] nums) {
+  int l=nums.length;
+  int sum=0;
+  if(l==0)
+  {
+    return 0;
+  }
+  else if(l==1)
+  {
+    sum=sum+nums[0];
+    return sum;
+  }
+  else
+  {
+    sum=sum+nums[0]+nums[1];
+    return sum;
+  }
+  
+}
