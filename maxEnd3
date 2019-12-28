@@ -1,0 +1,15 @@
+public int[] maxEnd3(int[] nums) {
+  int f=nums[0];
+  int l=nums[2];
+  
+  if(f>l)
+  {
+    int s[]={f,f,f};
+    return s;
+  }
+  else
+  {
+    int s[]={l,l,l};
+    return s;
+  }
+}
